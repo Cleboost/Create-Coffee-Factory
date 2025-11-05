@@ -1,0 +1,12 @@
+{
+    "sources": [
+        {
+            "type": "single",
+            "resource": "createcoffeefactory:fluid/coffee_flow"
+        },
+        {
+            "type": "single",
+            "resource": "createcoffeefactory:fluid/coffee_still"
+        }
+    ]
+}

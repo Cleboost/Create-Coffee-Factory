@@ -1,0 +1,7 @@
+{
+    "values": {
+        "createcoffeefactory:coffee_beans": {
+            "chance": 0.5
+        }
+    }
+}

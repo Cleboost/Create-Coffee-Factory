@@ -1,0 +1,41 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+issueTrackerURL="https://github.com/Cleboost/Create-Chocloate-Factory/issues" 
+[[mods]] #mandatory
+modId = "${mod_id}" #mandatory
+version = "${mod_version}" 
+displayName = "${mod_name}"
+# A URL to query for updates for this mod. See the JSON update specification https://docs.neoforge.net/docs/misc/updatechecker/
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+# A URL for the "homepage" for this mod, displayed in the mod UI
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+logoFile="logo.png" 
+credits=""
+authors = "${mod_authors}"
+description = '''${mod_description}'''
+
+[[mixins]]
+config = "mixins.json"
+
+[[dependencies."${mod_id}"]] 
+modId = "neoforge"
+type = "required"
+versionRange = "${neo_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "${minecraft_version_range}"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+    modId="create"
+    type="required"
+    versionRange="[6.0.6,6.1.0)"
+    ordering="NONE"
+    side="BOTH"

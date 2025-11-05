@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "createcoffeefactory:coffee_powder"
+    },
+    {
+      "item": "createcoffeefactory:coffee_powder"
+    },
+    {
+      "item": "createcoffeefactory:coffee_powder"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 25,
+      "tag": "c:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 25,
+      "id": "createcoffeefactory:coffee"
+    }
+  ]
+}

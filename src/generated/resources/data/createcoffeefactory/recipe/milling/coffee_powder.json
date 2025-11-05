@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "createcoffeefactory:coffee_beans_roasted"
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "count": 4,
+      "id": "createcoffeefactory:coffee_powder"
+    }
+  ]
+}
