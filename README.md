@@ -10,4 +10,4 @@
 
 ---
 
-![Stats](https://repobeats.axiom.co/api/embed/fcdb91b4d6cc19062881b830cbcb3ac2a23e45e4.svg)
+![Stats](https://repobeats.axiom.co/api/embed/2c7ec23f04854f096a0f98c91e51ab18dcc5f4ce.svg "Repobeats analytics image")
