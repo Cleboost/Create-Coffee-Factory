@@ -16,12 +16,12 @@ public class CCFStandardRecipeGen extends RecipeProvider {
     @Override
     public void buildRecipes(@Nonnull RecipeOutput consumer) {
         SimpleCookingRecipeBuilder.smoking(
-                        Ingredient.of(CCFItems.COFFEE_BEANS),
+                        Ingredient.of(CCFItems.COFFEE_BEAN),
                         RecipeCategory.FOOD,
-                        CCFItems.COFFEE_BEANS_ROASTED,
+                        CCFItems.COFFEE_BEAN_ROASTED,
                         0.35f,
                         100)
-                .unlockedBy("has_coffee_beans", has(CCFItems.COFFEE_BEANS))
+                .unlockedBy("has_coffee_beans", has(CCFItems.COFFEE_BEAN))
                 .save(consumer, "coffee_beans_roasted");
     }
 }

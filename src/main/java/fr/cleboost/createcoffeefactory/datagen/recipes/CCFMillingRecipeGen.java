@@ -13,7 +13,7 @@ public class CCFMillingRecipeGen extends MillingRecipeGen {
     GeneratedRecipe 
     
     COFFEE_POWDER = create("coffee_powder", b -> b
-        .require(CCFItems.COFFEE_BEANS_ROASTED)
+        .require(CCFItems.COFFEE_BEAN_ROASTED)
         .duration(200)
         .output(CCFItems.COFFEE_POWDER, 4)
     );

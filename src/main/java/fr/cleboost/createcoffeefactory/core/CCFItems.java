@@ -23,8 +23,8 @@ public class CCFItems {
             .register();
 
     // Coffee
-    public static final ItemEntry<Item> COFFEE_BEANS = REGISTRATE.item("coffee_beans", Item::new).register();
-    public static final ItemEntry<Item> COFFEE_BEANS_ROASTED = REGISTRATE.item("coffee_beans_roasted", Item::new).register();
+    public static final ItemEntry<Item> COFFEE_BEAN = REGISTRATE.item("coffee_bean", Item::new).register();
+    public static final ItemEntry<Item> COFFEE_BEAN_ROASTED = REGISTRATE.item("coffee_bean_roasted", Item::new).register();
     public static final ItemEntry<Item> COFFEE_POWDER = REGISTRATE.item("coffee_powder", Item::new).register();
 
     //Cup
