@@ -3,6 +3,7 @@ package fr.cleboost.createcoffeefactory.core;
 import com.tterrag.registrate.util.entry.ItemEntry;
 
 import fr.cleboost.createcoffeefactory.CreateCoffeeFactory;
+import fr.cleboost.createcoffeefactory.item.CoffeeCupItem;
 import fr.cleboost.createcoffeefactory.utils.CCFRegistrate;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemDisplayContext;

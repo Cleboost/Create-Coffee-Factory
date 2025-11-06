@@ -1,7 +1,8 @@
-package fr.cleboost.createcoffeefactory.core;
+package fr.cleboost.createcoffeefactory.item;
 
 import javax.annotation.Nonnull;
 
+import fr.cleboost.createcoffeefactory.core.CCFItems;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.LivingEntity;
