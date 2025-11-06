@@ -22,13 +22,14 @@ public class CoffeeCupItem extends Item {
 
     @Override
     @Nonnull
+    @SuppressWarnings("null")
     public ItemStack finishUsingItem(@Nonnull ItemStack stack, @Nonnull Level level, @Nonnull LivingEntity entity) {
         if (entity instanceof Player player) {
             int newDamage = stack.getDamageValue() + 1;
             stack.setDamageValue(newDamage);
 
             if (newDamage >= stack.getMaxDamage()) {
-                ItemStack cupStack = new ItemStack(CCFItems.CUP.get());
+                ItemStack cupStack = CCFItems.CUP.asStack();
                 
                 if (stack.getCount() == 1) {
                     return cupStack;
