@@ -29,7 +29,7 @@ public class CCFItems {
 
     //Cup
     public static final ItemEntry<Item> CUP = REGISTRATE.item("cup", Item::new).register();
-    public static final ItemEntry<Item> COFFEE_CUP = REGISTRATE.item("coffee_cup", Item::new).register();
+    public static final ItemEntry<CoffeeCupItem> COFFEE_CUP = REGISTRATE.item("coffee_cup", CoffeeCupItem::new).register();
 
 
     public static void register() {
