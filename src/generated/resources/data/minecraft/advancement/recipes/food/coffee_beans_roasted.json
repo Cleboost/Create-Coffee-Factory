@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "createcoffeefactory:coffee_beans"
+            "items": "createcoffeefactory:coffee_bean"
           }
         ]
       },

@@ -1,7 +1,7 @@
 {
   "fluid.createcoffeefactory.coffee": "Coffee",
-  "item.createcoffeefactory.coffee_beans": "Coffee Beans",
-  "item.createcoffeefactory.coffee_beans_roasted": "Coffee Beans Roasted",
+  "item.createcoffeefactory.coffee_bean": "Coffee Bean",
+  "item.createcoffeefactory.coffee_bean_roasted": "Coffee Bean Roasted",
   "item.createcoffeefactory.coffee_cup": "Coffee Cup",
   "item.createcoffeefactory.coffee_powder": "Coffee Powder",
   "item.createcoffeefactory.cup": "Cup",

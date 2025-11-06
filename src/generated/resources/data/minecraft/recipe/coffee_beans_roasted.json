@@ -4,10 +4,10 @@
   "cookingtime": 100,
   "experience": 0.35,
   "ingredient": {
-    "item": "createcoffeefactory:coffee_beans"
+    "item": "createcoffeefactory:coffee_bean"
   },
   "result": {
     "count": 1,
-    "id": "createcoffeefactory:coffee_beans_roasted"
+    "id": "createcoffeefactory:coffee_bean_roasted"
   }
 }

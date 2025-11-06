@@ -2,7 +2,7 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "item": "createcoffeefactory:coffee_beans_roasted"
+      "item": "createcoffeefactory:coffee_bean_roasted"
     }
   ],
   "processing_time": 200,
