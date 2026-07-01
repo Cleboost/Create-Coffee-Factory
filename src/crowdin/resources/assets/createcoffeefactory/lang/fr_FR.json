@@ -1,7 +1,7 @@
 {
   "fluid.createcoffeefactory.coffee": "Café",
-  "item.createcoffeefactory.coffee_beans": "Grains de café",
-  "item.createcoffeefactory.coffee_beans_roasted": "Grains de café torréfié",
+  "item.createcoffeefactory.coffee_bean": "Coffee Bean",
+  "item.createcoffeefactory.coffee_bean_roasted": "Coffee Bean Roasted",
   "item.createcoffeefactory.coffee_cup": "Tasse de café",
   "item.createcoffeefactory.coffee_powder": "Poudre de café",
   "item.createcoffeefactory.cup": "Mug",
